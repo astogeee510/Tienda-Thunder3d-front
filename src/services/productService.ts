@@ -11,7 +11,7 @@ export interface Product {
 }
 
 
-const API_BASE = "http://localhost:8080";
+const API_BASE = "http://10.0.136.247:8080";
 
 import { getAdminToken } from "./authService";
 
