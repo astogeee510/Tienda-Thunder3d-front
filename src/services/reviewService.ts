@@ -5,7 +5,7 @@ export interface Review {
   rating: number;
 }
 
-const API_BASE = "http://10.0.136.247:8080";
+const API_BASE = "http://44.206.222.168";
 
 export async function getReviews(): Promise<Review[]> {
   const response = await fetch(`${API_BASE}/reviews`);
